@@ -1,0 +1,15 @@
+AIM:To find total and Average of three numbers.
+Code:
+      a=int(raw_input("enter a value"))
+      b=int(raw_input("enter b value"))
+      c=int(raw_input("enterc value"))
+      sum=a+b+c
+      print("sum=",sum)
+      average=(a+b+c)/3
+      print("Average",average)
+      output:
+      #a=20
+      #b=30
+      #c=40
+      #sum is 90
+      #avg is 30
