@@ -1,0 +1,21 @@
+amt=float(input('enter the amount:'))
+if(amt>0):
+  if amt>=1000:
+      disc=amt*0.1
+  else amt>=2000:
+      disc=amt*0.2
+  else amt>=3000:
+      disc=amt*0.3
+  else amt>=5000:
+      disc=amt*0.4
+ else:
+      print("no discount")
+print("discoun=",disc)
+print("bill=",bill)
+
+
+
+'''output:
+enter the amount 1200
+discount=120
+bill=1840
