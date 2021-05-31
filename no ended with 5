@@ -1,0 +1,13 @@
+i=1
+while(i<=100):
+   if(i%10==5):
+        print(i,end=' ')
+     i+1
+ else:
+      print()
+      print("loop terminated as i value becomes %d" %i)
+      
+      
+      '''output:::
+      5 15 25 35 45 55 65 75 85 95
+      loop terminated as i value becomes 101'''
