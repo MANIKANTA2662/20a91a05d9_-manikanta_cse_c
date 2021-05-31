@@ -1,0 +1,11 @@
+n=int(input("enter n value:"))
+revers=0
+while(n>0):
+ rem=n%10
+ revers=revers*10+rem
+ n=n/10
+ print(revers:)
+ 
+ output:
+ enter n value:123456789
+ revers:987654321
