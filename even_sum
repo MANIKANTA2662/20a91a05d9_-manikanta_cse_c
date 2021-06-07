@@ -1,0 +1,20 @@
+start=int(input('enter start value:'))
+end=int(input('enter end value:'))
+sum=0
+if start<end:
+	
+	for i in range (start, end+1):
+		if i%2==0:
+			sum+=i
+	print(sum)
+else:
+	for i in range(start,end-1,-1):
+		if i%2==0:
+			sum+=i
+	print(sum)
+'''
+Output:
+enter start value 10
+enter end value 8
+18
+'''
